@@ -89,29 +89,163 @@
 \end{center}
 \end{frame}
 
-\begin{frame}{}
+\begin{frame}{Online Review Tool}
 
 \begin{columns}
 	\begin{column}{0.5\linewidth}
 		\begin{center}
 			\begin{figure}
-				%\includegraphics[width=0.85\linewidth]{merged_IPCC_spectral.png}
-			%	\caption{Source: \citet{Minx2017} }
-		\animategraphics[loop,controls,width=\linewidth]{12}{images/screen-}{0}{248}
+				\includegraphics[width=0.85\linewidth]{images/screen.png}
+			\end{figure}
+			\begin{figure}
+				\fbox{\includegraphics[width=0.85\linewidth]{images/ratings_user_time.png}}
 			\end{figure}
 		\end{center}
 	\end{column}
 	\begin{column}{0.5\linewidth}
 		\begin{center}
 			\begin{itemize}
-				\item Comprehensive, credible and relevant assessments become
-				more challenging as the literature grows
+				\item A tool for teams to manage documents downloaded from online databases
+				\item Teams can screen documents and mark them as relevant or not
+			\end{itemize}
+		\medskip
+		\textbf{Extensions}
+		\begin{itemize}
+			\item Snowballing (getting more documents by looking through references and citations)
+			\item Automatically emailing authors in the database and asking them to enter missing information
+		\end{itemize}
+		\end{center}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Scientometric Analysis}
+
+\begin{columns}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\begin{figure}
+				\includegraphics[width=1\linewidth]{images/network.png}
+			\end{figure}
+		\end{center}
+	\end{column}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			Scientometric Analysis uses the reference information of articles to answer questions about an area of literature:
+			\begin{itemize}
+				\item What authors/institutions/articles play an important role?
+				\item What is the community structure of a network of papers?
+				\item How has an area of literature evolved? What are the roots of ideas, and how can we trace their development?
 			\end{itemize}
 		\end{center}
 	\end{column}
 \end{columns}
 
 \end{frame}
+
+\begin{frame}{Topic modelling}
+
+\begin{columns}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\includegraphics[width=\linewidth]{images/volume_variety_bible.png}
+		\end{center}
+	\end{column}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\begin{itemize}
+				\item Topic modelling is a way of reducing the dimensionality of a corpus of documents
+				\item A large matrix of documents x words is factorised by
+				a matrix of topics x words and a matrix of topics x documents
+				\citep{Lee1999}
+				\item Topics describe the latent structure of the document corpus
+				\item There are a number of different models, with different assumptions, and different approaches to estimation. A very good introduction to the concept is found in \citet{Blei2012}
+			\end{itemize}
+		\end{center}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Topic modelling}
+
+\begin{columns}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+	\fbox{\includegraphics[width=0.95\linewidth]{images/topic.png}}
+\end{center}
+	\end{column}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\fbox{\includegraphics[width=0.95\linewidth]{images/document.png}}
+		\end{center}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+\begin{frame}{Topic modelling}
+
+\begin{columns}
+	\begin{column}{0.4\linewidth}
+		\begin{center}
+			\includegraphics[width=1\linewidth]{images/network_wg_65.png}
+
+			
+		\end{center}
+	\end{column}
+	\begin{column}{0.6\linewidth}
+		\begin{center}
+			\includegraphics[width=0.7\linewidth]{images/time_renewed.png}
+			\begin{itemize}
+				\item How do topics relate to one another?
+				\item How do topics change over time? \citep{Greene2016}
+				\item How can we incorporate other information into the topic model? \citep{Tvinnereim2015, Roberts2014a}
+				\item Topic models of speech \citep{El-Assady2016}
+				
+			\end{itemize}
+		\end{center}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+
+\begin{frame}{Other Text Analysis}
+
+\begin{columns}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\fbox{\includegraphics[width=\linewidth]{images/extract_raw.png}}
+		\end{center}
+	\end{column}
+	\begin{column}{0.5\linewidth}
+		\begin{center}
+			\begin{itemize}
+				\item Causaly collect causal statements from literature
+				\item They aim to quantify and aggregate the strength of claims
+				
+			\end{itemize}
+		\medskip
+		\textbf{Applications?}
+		\begin{itemize}
+			\item Do we get more consolidated knowledge about causal relationships over time (in some WGs over others)?
+			\item What can we learn about co-benefits and side-effects of different negative emission technologies?
+		
+				
+			\end{itemize}
+		\end{center}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+
 
 \begin{frame}{Frame Title}
 	\small
